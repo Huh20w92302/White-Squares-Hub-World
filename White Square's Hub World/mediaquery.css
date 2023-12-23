@@ -1,0 +1,170 @@
+@media only screen and (min-width: 768px) { 
+    .nav {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        align-items: center;
+        color: aqua;
+        transition: all 1s;
+        
+    }
+    .nav a {
+        transition: all 500ms;
+    }
+
+    table{
+        border: 10px rgb(51, 225, 112) double;
+        text-align: center;
+        background-color: white;
+        border-collapse: collapse;
+        width: 650px;
+        margin: auto;
+        background-color: rgb(193, 235, 255);
+        font-size: 20px;
+    }
+    
+        
+    
+
+    table td{
+        
+        text-align: center;
+        color: rgb(45, 36, 95);
+       
+        border: 3px rgb(132, 218, 255) solid;
+        font-weight: 800;
+        text-shadow: 0px 0px 50px;
+        height: 100px;
+    }
+
+    
+    table img {
+        width: 100px;
+        height: 100px;
+        border: 10px rgb(28, 206, 146) double;
+        border-radius: 30%;
+    }
+
+    .nav a:hover{
+        color: rgb(213, 245, 255);
+        background-color: rgb(173, 198, 255);
+    
+    }    
+    .menu img {
+        height: 100px;
+        display: none;
+        align-self: center;
+  
+    }
+    table tr td:nth-child(4) {
+        
+        text-align: center;
+        color: rgb(45, 36, 95);
+       
+        border: 3px rgb(132, 218, 255) solid;
+        font-weight: 800;
+        text-shadow: 0px 0px 50px;
+        height: 100px;
+        background-color:rgb(111, 185, 255);
+    }
+    table tr td:nth-child(1) {
+        
+        text-align: center;
+        color: rgb(45, 36, 95);
+       
+        border: 3px rgb(132, 218, 255) solid;
+        font-weight: 800;
+        text-shadow: 0px 0px 50px;
+        height: 100px;
+        background-color:rgb(170, 228, 255);
+    }
+    .f-wrapper {
+        grid-template-columns: 1fr auto;
+    }
+
+}
+@media only screen and (min-width: 1200px) { 
+    .menu img {
+        height: 100px;
+        display: none;
+        align-self: center;
+  
+    }
+    .nav {
+
+        color: aqua;
+        
+    }
+    .nav a{
+        padding: 45px;
+ 
+    }
+
+    table{
+        border: 10px rgb(51, 225, 112) double;
+        text-align: center;
+        background-color: white;
+        border-collapse: collapse;
+        width: 1400px;
+        margin: auto;
+        background-color: rgb(193, 235, 255);
+        font-size: 20px;
+    }
+    
+        
+    
+    table img{
+        
+        text-align: center;
+        background-color: rgb(195, 221, 255);
+        width: 400px;
+        width: 400px;
+        
+        
+    }
+    table td{
+        
+        text-align: center;
+        color: rgb(45, 36, 95);
+       
+        border: 3px rgb(132, 218, 255) solid;
+        font-weight: 800;
+        text-shadow: 0px 0px 50px;
+        height: 100px;
+    }
+
+    table tr :nth-child(4) {
+        
+        text-align: center;
+        color: rgb(45, 36, 95);
+       
+        border: 3px rgb(132, 218, 255) solid;
+        font-weight: 800;
+        text-shadow: 0px 0px 50px;
+        height: 100px;
+        background-color:rgb(111, 185, 255);
+    }
+    table tr:nth-child(1) {
+        
+        text-align: center;
+        color: rgb(45, 36, 95);
+       
+        border: 3px rgb(132, 218, 255) solid;
+        font-weight: 800;
+        text-shadow: 0px 0px 50px;
+        height: 100px;
+        background-color:rgb(170, 228, 255);
+    }
+    table img {
+        width: 100px;
+        height: 100px;
+        border: 10px rgb(28, 206, 146) double;
+        border-radius: 30%;
+    }
+    .game-wrapper {
+        grid-template-columns: 1fr auto;
+    }
+
+
+}
+
